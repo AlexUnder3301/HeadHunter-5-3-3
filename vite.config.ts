@@ -12,7 +12,7 @@ export default defineConfig({
       },
     }),
   ],
-  base: "/HeadHunter-5-2-9/",
+  base: "/HeadHunter-5-3-3/",
   test: {
     globals: true,
     environment: "jsdom",

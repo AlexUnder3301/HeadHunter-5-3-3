@@ -1,0 +1,29 @@
+.page-header-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  color: var(--mantine-color-black-8);
+
+  .item-text {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+.active-page {
+  color: black;
+  font-weight: 400;
+
+  svg {
+    stroke: currentColor;
+  }
+
+  &::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--mantine-color-primary-7);
+  }
+}

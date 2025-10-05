@@ -1,0 +1,47 @@
+.wapper {
+  display: flex;
+  justify-content: center;
+
+  .page-container {
+    width: 707px;
+    padding: 32px;
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .heading-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      h1 {
+        font-size: 34px;
+        text-align: start;
+        width: 500px;
+      }
+      button {
+        height: 42px;
+        width: 135px;
+        font-size: 16px;
+        background-color: var(--mantine-color-primary-7);
+        box-sizing: border-box;
+      }
+    }
+
+    p {
+      text-align: start;
+      font-size: 18px;
+      font-weight: 400;
+    }
+
+    img {
+      width: 640px;
+      height: 336px;
+      border-radius: 12px;
+    }
+  }
+}

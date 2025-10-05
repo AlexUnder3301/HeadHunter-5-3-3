@@ -1,0 +1,29 @@
+.about {
+  width: 658px;
+  border-radius: 12px;
+  background-color: white;
+  color: black;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  //   box-sizing: border-box;
+
+  &-heading {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  &-text {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 24px;
+}

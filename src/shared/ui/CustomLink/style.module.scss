@@ -15,10 +15,6 @@
   color: black;
   font-weight: 400;
 
-  svg {
-    stroke: currentColor;
-  }
-
   &::after {
     content: "";
     width: 6px;
